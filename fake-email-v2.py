@@ -9,7 +9,7 @@ def main():
     number_of_emails = int(input("How many emails you want?: "))
 
     try:
-        int(x)
+        int(number_of_mails)
     except:
         raise ValueError('Enter an integer!')
 
